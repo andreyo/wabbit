@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wabbit</artifactId>
+        <groupId>com.wabbit</groupId>
+        <version>${wabbit-version}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wabbit</groupId>
+    <artifactId>wabbit-google</artifactId>
+    <version>${wabbit-version}</version>
+    <packaging>jar</packaging>
+
+    <name>wabbit-google</name>
+    <url>http://maven.apache.org</url>
+    <build>        
+    </build>
+    
+    <dependencies>
+        <dependency>
+            <groupId>gdata</groupId>
+            <artifactId>docs</artifactId>
+            <version>3.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gdata-docs-3.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>gdata</groupId>
+            <artifactId>spreadsheet</artifactId>
+            <version>3.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gdata-spreadsheet-3.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>gdata</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gdata-core-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>gdata</groupId>
+            <artifactId>media</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gdata-media-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>gdata</groupId>
+            <artifactId>client</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/gdata-client-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>google</groupId>
+            <artifactId>collect</artifactId>
+            <version>1.0-rc1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/google-collect-1.0-rc1.jar</systemPath>
+        </dependency>        
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+	<!-- -->
+    </dependencies>
+</project>
